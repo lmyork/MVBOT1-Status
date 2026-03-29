@@ -5,7 +5,39 @@
   <title>Event Summary</title>
 </head>
 <body>
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    h1 {
+      position: absolute;
+      top: 12px;
+      left: 16px;
+      margin: 0;
+      z-index: 1;
+      color: #111;
+      background: rgba(255, 255, 255, 0.75);
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-family: sans-serif;
+      font-size: 1.25rem;
+    }
+
+    img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
   <h1>Latest Event Summary</h1>
-  <img src="summary.png" alt="Summary image" style="max-width:100%;">
+  <img src="summary.png" alt="Summary image">
 </body>
 </html>
