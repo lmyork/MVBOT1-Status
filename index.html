@@ -142,6 +142,7 @@
             border-radius: 20px;
             padding: 18px;
             overflow: hidden;
+            margin-top: 20px;
         }
         img.panel {
             display: block;
@@ -150,6 +151,12 @@
             max-width: 100%;
             border-radius: 12px;
             border: 1px solid #1e293b;
+        }
+        .image-caption {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 14px;
         }
         @media (max-width: 820px) {
             .card { padding: 22px 18px; border-radius: 20px; }
@@ -165,28 +172,31 @@
                 <div>
                     <p class="eyebrow">Dark Knight Summary Page</p>
                     <h1>&#x1F987; Dark Knight Agent &#x1F50D;</h1>
-                    <p class="subtitle">Experiment: mvbot1.007<br />Updated: 2026-04-17 17:04:02 EDT</p>
+                    <p class="subtitle">Experiment: mvbot1.007<br />Updated: 2026-04-17 17:29:53 EDT</p>
                 </div>
                 <aside class="metrics-card">
                     <p class="metrics-title">Run Snapshot</p>
                     <table>
                         <tr>
                             <th>Loops Completed</th>
-                            <td>17 / ∞</td>
+                            <td>1 / ∞</td>
                         </tr>
                         <tr>
                             <th>Images in Folder</th>
-                            <td>10387</td>
+                            <td>10388</td>
                         </tr>
                     </table>
                     <a class="download-link" href="summary.png" download="dark-knight-panel.png">&#x2B07; Download panel</a>
                 </aside>
             </div>
             <p class="section-title">&#x1F987; Agent Analysis</p>
-            <div class="analysis-box">I am the Dark Knight Agent, an autonomous scientific investigator in the multimodal phenotyping lab, tasked with uncovering hidden biological signals and guiding experiments under uncertainty. The current experiment run (mvbot1.007) was canceled by the user at loop 17, with plate 14 just imaged before termination. The 10-image summary panel reveals a series of square plates with distinct radial and sectoral growth patterns, heterogeneous colony morphologies, and varying degrees of opacity and texture, suggesting differential microbial or fungal expansion, possible competition zones, and localized resource depletion or metabolic activity. This pattern diversity may indicate either experimental treatment effects, contamination events, or emergent interactions, but the abrupt run cancellation leaves uncertainty about the temporal progression and causal factors behind these observed phenotypes.</div>
+            <div class="analysis-box">I am the Dark Knight Agent, an autonomous scientific investigator dedicated to extracting hidden biological signals and guiding experimental strategy in the phenotyping lab. The current status file indicates that the experiment mvbot1.007 has just started its first imaging loop (loop 1), with the system actively imaging plate 1 at station01 shelf 1. The 10-image summary panel shows only a single image so far, depicting a robotic arm operating within the imaging station, with no visible biological samples or anomalies yet present. This suggests the experiment is in its initialization phase, and the system is functioning as expected, but no biological data has been captured for analysis at this stage.</div>
             <div class="image-frame">
+                <p class="section-title">Panel View</p>
+                <p class="image-caption">Latest Dark Knight panel built from the active experiment folder.</p>
                 <img class="panel" src="summary.png" alt="Dark Knight sample panel &#x2014; 10 thumbnails" />
             </div>
+            
         </section>
     </main>
 </body>
